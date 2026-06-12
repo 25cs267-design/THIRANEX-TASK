@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal Portfolio of Shiva - Web Developer">
+    <meta name="keywords" content="Portfolio, Web Developer, HTML5, CSS3, JavaScript">
+    <meta name="author" content="Shiva">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shiva | Portfolio</title>
+</head>
+
+<body>
+
+<header role="banner">
+    <h1>Shiva Rudhra</h1>
+    <p>Web Development Intern</p>
+
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section aria-labelledby="hero-heading">
+    <h2 id="hero-heading">Welcome to My Portfolio</h2>
+    <p>
+        I am a passionate web developer focused on creating
+        accessible and user-friendly websites.
+    </p>
+</section>
+
+<section aria-labelledby="skills-heading">
+    <h2 id="skills-heading">Skills</h2>
+
+    <article>
+        <h3>Frontend Development</h3>
+        <p>HTML5, CSS3, JavaScript</p>
+    </article>
+
+    <article>
+        <h3>Responsive Design</h3>
+        <p>Mobile-first and accessibility-focused development.</p>
+    </article>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Shiva Rudhra. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Learn more about Shiva">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Me</title>
+</head>
+
+<body>
+
+<header>
+    <h1>About Me</h1>
+
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" aria-current="page">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section aria-labelledby="about-heading">
+    <h2 id="about-heading">Who Am I?</h2>
+
+    <img
+        src="profile.jpg"
+        alt="Portrait of Shiva Rudhra"
+        width="250">
+
+    <p>
+        I am a web development intern passionate about creating
+        accessible, responsive, and modern websites.
+    </p>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Shiva Rudhra</p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio Projects">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projects</title>
+</head>
+
+<body>
+
+<header>
+    <h1>My Projects</h1>
+
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" aria-current="page">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section aria-labelledby="projects-heading">
+    <h2 id="projects-heading">Featured Projects</h2>
+
+    <article>
+        <h3>Calculator App</h3>
+        <p>
+            A basic calculator built using HTML, CSS, and JavaScript.
+        </p>
+    </article>
+
+    <article>
+        <h3>Portfolio Website</h3>
+        <p>
+            Responsive portfolio website following accessibility standards.
+        </p>
+    </article>
+
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Shiva Rudhra</p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact Shiva">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Contact Me</h1>
+
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section aria-labelledby="contact-heading">
+    <h2 id="contact-heading">Get In Touch</h2>
+
+    <form
+        action="#"
+        method="post"
+        aria-label="Contact Form">
+
+        <div>
+            <label for="name">Full Name</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                aria-required="true">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email Address</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                aria-required="true">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="message">Message</label>
+            <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                aria-required="true"></textarea>
+        </div>
+
+        <br>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Shiva Rudhra</p>
+</footer>
+
+</body>
+</html>
